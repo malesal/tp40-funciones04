@@ -13,6 +13,7 @@ int main(){
 }
 
 void CalcularDoble(int n){
-    cout << "El doble del numero " << n << " es " << n * 2 << endl;
+    n=n*2;
+    return n;
 }
 
